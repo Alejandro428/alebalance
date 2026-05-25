@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/crear_nueva_categoria"
+        android:title="Crear nueva categoría" />
+    <item
+        android:id="@+id/eliminar_categoria"
+        android:title="Eliminar categoría" />
+    <item
+        android:id="@+id/crear_ingreso"
+        android:title="Crear nuevo ingreso" />
+    <item
+        android:id="@+id/crear_gasto"
+        android:title="Crear nuevo gasto" />
+    <item
+        android:id="@+id/filtrar_ingreso_gasto"
+        android:title="Mostrar según lo indicado" />
+</menu>

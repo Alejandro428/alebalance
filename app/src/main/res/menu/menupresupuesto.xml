@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/crear_presupuesto"
+        android:title="Crear nuevo presupuesto" />
+    <item
+        android:id="@+id/mostrar_segun_mes"
+        android:title="Mostrar según mes" />
+</menu>

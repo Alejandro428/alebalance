@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cartaBorrarDefinitivo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0D6FC6"
+        android:padding="16dp"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:id="@+id/textViewEliminarDefinitivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:padding="8dp"
+            android:text="¿Estás seguro de querer eliminar la categoría seleccionada? Si lo haces, borrarás todas las transacciones en las que haya sido implicada, junto con sus presupuestos."
+            android:textAlignment="center"
+            android:textColor="#DF2828"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:breakStrategy="high_quality"
+            app:autoSizeTextType="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

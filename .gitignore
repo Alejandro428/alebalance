@@ -1,0 +1,28 @@
+# Gradle
+*.iml
+.gradle/
+/local.properties
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Android Studio / IntelliJ
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+*.hprof
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local config / secrets
+local.properties
+*.keystore
+*.jks

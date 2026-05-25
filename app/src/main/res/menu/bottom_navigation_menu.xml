@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inicio"
+        android:icon="@drawable/inicio"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/categorias"
+        android:icon="@drawable/categorias"
+        android:title="Transacciones"/>
+    <item
+        android:id="@+id/presupuestos"
+        android:icon="@drawable/balance"
+        android:title="Presupuestos"/>
+</menu>

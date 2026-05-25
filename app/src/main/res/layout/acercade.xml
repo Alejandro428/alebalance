@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CAAEAE">
+        <!--  MaterialCardView dentro del ConstraintLayout  -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView"
+            android:layout_width="381dp"
+            android:layout_height="702dp"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.325"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeWidth="2dp">
+            <!--  Contenido de la tarjeta  -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="699dp"
+                android:background="@drawable/acercade3">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="326dp"
+                    android:layout_height="27dp"
+                    android:fontFamily="serif"
+                    android:text="Centro de Formación Solvam"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.885" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="326dp"
+                    android:layout_height="29dp"
+                    android:fontFamily="serif"
+                    android:text="Asignatura: Diseño de Interfaces WEB"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.843" />
+
+                <android.widget.TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="346dp"
+                    android:layout_height="28dp"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="casual"
+                    android:text="Alejandro Jiménez Cabrera"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.023" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="326dp"
+                    android:layout_height="26dp"
+                    android:fontFamily="serif"
+                    android:text="Año de creación: 2025"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.924" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="338dp"
+                    android:layout_height="133dp"
+                    android:shadowColor="#FFFFFF"
+                    android:text="El objetivo de la aplicación es ofrecerte una herramienta para que puedas tener un control total de tus finanzas personales. Está pensada para cualquier persona que quiera llevar un registro de su dinero de manera organizada y tener visibilidad de sus gastos e ingresos, todo desde la palma de tu mano."
+                    android:textAlignment="center"
+                    android:textColor="#0037FD"
+                    android:textSize="15.5dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.617"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.39"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="372dp"
+                    android:layout_height="35dp"
+                    android:text="Copyright 2025 . Todos los derechos reservados. Desarrollado por Alejandro Jiménez Cabrera."
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.75"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.976" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="343dp"
+                    android:layout_height="92dp"
+                    android:text="¡Hola! Soy un estudiante de 2º DAW con muchas ganas de aprender y crear cosas útiles. Esta app es uno de mis proyectos, y está pensada para ayudar a la gente a gestionar sus gastos e ingresos de una forma sencilla y rápida."
+                    android:textAlignment="center"
+                    android:textColor="#0037FD"
+                    android:textSize="15.5dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.551"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.108"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="347dp"
+                    android:layout_height="24dp"
+                    android:fontFamily="casual"
+                    android:text="Propósito de la app"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textColorLink="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.64"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.258" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="340dp"
+                    android:layout_height="79dp"
+                    android:shadowColor="#FFFFFF"
+                    android:text="La app la he desarrollado como parte de mis estudios en desarrollo de aplicaciones, buscando siempre mejorar y ofrecer algo práctico para la gente."
+                    android:textAlignment="center"
+                    android:textColor="#0037FD"
+                    android:textSize="15.5dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.562"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.59"
+                    tools:ignore="TextSizeCheck" />
+
+                <Button
+                    android:id="@+id/regresarInicio"
+                    android:layout_width="237dp"
+                    android:layout_height="64dp"
+                    android:backgroundTint="#0C8BFA"
+                    android:text="Regresar a Inicio"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.749" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
